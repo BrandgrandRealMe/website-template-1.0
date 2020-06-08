@@ -11,10 +11,11 @@ background-color: #23272A;
  overflow: hidden;}
 
 section {
-  height: calc(100% - (50px + 50px));
+  height: calc(100% - (50px + 50px + 10px));
   font-family: 'zorque';  
   background: #2C2F33;
   color:#FFFFFF;
+  border: 5px solid transparent;
 }
 
 footer {
@@ -33,26 +34,20 @@ footer {
 .title {
   background-image: url(https://brandgrandrealme.github.io/favicon-32x32.png);
   background-repeat: no-repeat;
-  text-position: right center;
   background-position: left center;
   color: #7289DA;
   font-family: 'zorque';
-  font-size: 32px;
-  padding-left:40px;
-  margin-right:-40px;
   float: left center;
   border-left: 10px solid transparent;
 }
 .topnav .title {
-  font-family: 'zorque';
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
-  padding: 14px 40px;
+  padding: 7px 40px;
   text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
+  font-size: 30px;
+  border-bottom: 3px solid #7289DA;
 }
 .topnav .button {
   font-family: 'zorque';
@@ -67,12 +62,12 @@ footer {
 }
 
 .topnav .button:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #7289DA;
 }
 
 .topnav a.active {
   font-family: 'zorque';
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #7289DA;
   float: right;
   display: block;
   color: #f2f2f2;
