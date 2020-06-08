@@ -5,17 +5,31 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 60px;
   background: grey;
 }
 
 section {
-  height: calc(100% - (100px + 150px));
+  height: calc(100% - (60px + 50px));
   /* Adding 100px of header and 150px of footer */
   background: tomato;
 }
 
 footer {
-  height: 150px;
+  height: 50px;
   background-color: blue;
+}
+
+@font-face {
+    font-family: 'zorque';
+    src: url('https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff2') format('woff2'),
+         url('https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+  color: blue;
+  font-family: 'zorque';
+  font-size: 45px;
 }
