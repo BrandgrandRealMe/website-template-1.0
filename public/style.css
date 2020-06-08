@@ -29,6 +29,10 @@ footer {
 }
 
 .title {
+  background-image: url(https://brandgrandrealme.github.io/favicon-32x32.png);
+  background-repeat: no-repeat;
+  text-position: right center;
+  background-position: left center;
   color: blue;
   font-family: 'zorque';
   font-size: 45px;
