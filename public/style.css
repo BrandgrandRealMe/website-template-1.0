@@ -113,10 +113,17 @@ background: #7289DA;
 }
 .SMBs {
 border-radius:10px; 
-
+   opacity: .3;
+    padding: 5px;
+  border: 5px solid ;
+width: calc(38px + 38px + 38px);
 }
 .SMBs:hover {
 border-radius:5px; 
-background: #7289DA;
+background: ;
 width: calc(38px + 38px + 38px);
+opacity: .9;
+      padding: 5px;
+border: 5px solid #7289DA;
+
 }
