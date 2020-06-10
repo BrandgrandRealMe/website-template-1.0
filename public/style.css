@@ -89,38 +89,34 @@ footer {
 
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
+.fa:hover{
  opacity: 1;
+ color: white
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-github {
   background: #3B5998;
-  color: white;
+  color: #ffffff;
 }
 
-/* Twitter */
 .fa-twitter {
   background: #55ACEE;
-  color: white;
+  color: #FFFFFF;
 }
 .fa-globe {
 background: #7289DA;
-  color: white;
+  color: #FFFFFF;
 }
 .SMBs {
 border-radius:10px; 
-   opacity: .3;
+   opacity: .5;
     padding: 5px;
-  border: 5px solid ;
+  border: 5px solid gray;
 width: calc(38px + 38px + 38px);
 }
 .SMBs:hover {
-border-radius:5px; 
-background: ;
+border-radius:10px; 
+background: #23272A; 
 width: calc(38px + 38px + 38px);
 opacity: .9;
       padding: 5px;
