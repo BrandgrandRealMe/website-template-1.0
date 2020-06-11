@@ -112,7 +112,8 @@ border-radius:10px;
    opacity: .5;
     padding: 5px;
   border: 5px solid gray;
-width: calc(38px + 38px + 38px);
+  width: calc(38px + 38px + 38px);
+  width: 38px
 }
 .SMBs:hover {
 border-radius:10px; 
