@@ -63,6 +63,7 @@ footer {
 
 .topnav .button:hover {
   border-bottom: 3px solid #7289DA;
+  font-size: 20px;
 }
 
 .topnav a.active {
@@ -78,20 +79,22 @@ footer {
 }
 /* Style all font awesome icons */
 .fa {
-  opacity: 0.7;
-    padding: 10px;
-  font-size: 15px;
-  width: 15px;
-  height: 15px;
+  float: right;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-    border-radius: 10px;
-
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
+
 
 .fa:hover{
  opacity: 1;
- color: white
+ color: white;
+ border-bottom: 3px solid #7289DA;
+ padding: 20px;
 }
 
 .fa-github {
