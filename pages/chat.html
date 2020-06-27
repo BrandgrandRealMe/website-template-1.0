@@ -64,11 +64,13 @@
     <section class="body">
 <div id="chat_brandgrand"></div><p><a href="http://chatovod.com/" target="_blank">Create your own chat.</a></p>
 <script type="text/javascript">
-    var H100 = document.getElementById('body').style.height
+    var H1 = document.getElementById('body').style.height
+    var H2 = Number(("data-123").match(/\d+$/));
+
     var chatovodOnLoad = chatovodOnLoad || [];
     chatovodOnLoad.push(function() {
         chatovod.addChatToDivId("chat_brandgrand", {host: "brandgrand.chatovod.com",
-            width: "100%", height: 300px, defaultLanguage: "en"});
+            width: "100%", height: 300, defaultLanguage: "en"});
     });
     (function() {
         var po = document.createElement('script');
