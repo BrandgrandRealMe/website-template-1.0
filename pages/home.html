@@ -61,12 +61,17 @@
         >
       </div>
     </header>
-    <section>
+    <section id="body">
+    <div id="height"></div>
+
     <button onclick="myFunction()">Click me!</button>
      <script>
          function myFunction() {
-     var BODYH = 
-     window.alert("The body height is" + BODYH);
+     var height=document.getElementById('body').style.height;
+    
+     document.getElementById('height').innerHTML= height;
+     var BODYH = height
+     window.alert("The body height is " + );
          }
       </script>
     </section>
