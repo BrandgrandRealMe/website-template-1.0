@@ -19,22 +19,17 @@ section {
 }
 
 footer {
-  height: 50px;
-  background-color: #23272A;
-  font-family: 'zorque';  
-  color: #FFFFFF;
+  float: left;
+  display: block;
   text-align: center;
-  padding:15px 15px;
-  font-size: 15px;
+  padding: 7px 40px;
+  text-decoration: none;
+  font-size: 20px;
 }
 .mit {
-  height: 50px;
   background-color: #23272A;
   font-family: 'zorque';  
   color: #FFFFFF;
-  text-align: center;
-  padding:15px 15px;
-  font-size: 15px;
   text-decoration: none;
 
 }
@@ -92,7 +87,7 @@ footer {
   font-size: 17px;
 }
 /* Style all font awesome icons */
-.fa {
+.faa3 {
   float: right;
   display: block;
   color: #f2f2f2;
@@ -102,11 +97,19 @@ footer {
   font-size: 18px;
   border-bottom: 3px solid transparent;
 }
-
+.fa {
+  font-family: 'zorque';
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+}
 
 .fa:hover{
- opacity: 1;
- color: white;
  border-bottom: 3px solid #7289DA;
 }
 
