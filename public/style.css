@@ -7,20 +7,20 @@ body {
 
 header {
   height: 50px;
-background-color: #23272A;
- overflow: hidden;}
+  background-color: #23272A;
+  overflow: hidden;
+}
 
 section {
   height: calc(100% - (50px + 50px + 10px));
-  font-family: 'zorque';  
+  font-family: "zorque";
   background: #2C2F33;
-  color:#FFFFFF;
+  color: #FFFFFF;
   border: 5px solid transparent;
 }
 
-
 footer {
-  font-family: 'zorque';  
+  font-family: "zorque";
   color: #FFFFFF;
   text-decoration: none;
   display: block;
@@ -30,29 +30,21 @@ footer {
   font-size: 20px;
   background-color: #23272A;
 }
-.chat_brandgrand {
-  height: calc(100% - (50px + 50px + 10px));
-  font-family: 'zorque';  
-  background: #2C2F33;
-  color:#FFFFFF;
-  border: 5px solid transparent;
-  border: 1px;
-  margin: 0;
-}
 
 .mit {
   background-color: #23272A;
-  font-family: 'zorque';  
+  font-family: "zorque";
   color: #FFFFFF;
   text-decoration: none;
-
 }
 @font-face {
-    font-family: 'zorque';
-    src: url('https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff2') format('woff2'),
-         url('https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "zorque";
+  src: url("https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff2")
+      format("woff2"),
+    url("https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .title {
@@ -60,7 +52,7 @@ footer {
   background-repeat: no-repeat;
   background-position: left center;
   color: #7289DA;
-  font-family: 'zorque';
+  font-family: "zorque";
   float: left center;
   border-left: 10px solid transparent;
 }
@@ -74,7 +66,7 @@ footer {
   border-bottom: 3px solid #7289DA;
 }
 .topnav .button {
-  font-family: 'zorque';
+  font-family: "zorque";
   float: right;
   display: block;
   color: #f2f2f2;
@@ -90,7 +82,7 @@ footer {
 }
 
 .topnav a.active {
-font-family: 'zorque';
+  font-family: "zorque";
   float: right;
   display: block;
   color: #f2f2f2;
@@ -99,21 +91,11 @@ font-family: 'zorque';
   text-decoration: none;
   font-size: 15px;
   border-bottom: 4px solid #7289DA;
-
 }
 /* Style all font awesome icons */
-.faa3 {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  border-bottom: 3px solid transparent;
-}
+
 .fa {
-  font-family: 'zorque';
+  font-family: "zorque";
   float: right;
   display: block;
   color: #f2f2f2;
@@ -124,8 +106,8 @@ font-family: 'zorque';
   border-bottom: 3px solid transparent;
 }
 
-.fa:hover{
- border-bottom: 3px solid #7289DA;
+.fa:hover {
+  border-bottom: 3px solid #7289DA;
 }
 
 .fa-github {
@@ -138,22 +120,6 @@ font-family: 'zorque';
   color: #FFFFFF;
 }
 .fa-globe {
-background: #7289DA;
+  background: #7289DA;
   color: #FFFFFF;
-}
-.SMBs {
-border-radius:10px; 
-   opacity: .5;
-    padding: 5px;
-  border: 5px solid gray;
-  width: calc(38px + 38px + 38px);
-}
-.SMBs:hover {
-border-radius:10px; 
-background: #23272A; 
-width: calc(38px + 38px + 38px);
-opacity: .9;
-      padding: 5px;
-border: 5px solid #7289DA;
-
 }
