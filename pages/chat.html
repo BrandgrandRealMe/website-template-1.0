@@ -61,14 +61,14 @@
         >
       </div>
     </header>
-    <section>
+    <section class="body">
 <div id="chat_brandgrand"></div><p><a href="http://chatovod.com/" target="_blank">Create your own chat.</a></p>
 <script type="text/javascript">
-    var H100 = (100% - (50px + 50px + 10px))
+    var H100 = document.getElementById('body').style.height
     var chatovodOnLoad = chatovodOnLoad || [];
     chatovodOnLoad.push(function() {
         chatovod.addChatToDivId("chat_brandgrand", {host: "brandgrand.chatovod.com",
-            width: "100%", height: H100, defaultLanguage: "en"});
+            width: "100%", height: 300px, defaultLanguage: "en"});
     });
     (function() {
         var po = document.createElement('script');
