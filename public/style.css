@@ -22,12 +22,22 @@ footer {
   height: 50px;
   background-color: #23272A;
   font-family: 'zorque';  
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-align: center;
   padding:15px 15px;
   font-size: 15px;
 }
+.mit {
+  height: 50px;
+  background-color: #23272A;
+  font-family: 'zorque';  
+  color: #FFFFFF;
+  text-align: center;
+  padding:15px 15px;
+  font-size: 15px;
+  text-decoration: none;
 
+}
 @font-face {
     font-family: 'zorque';
     src: url('https://cdn.glitch.com/77b6f1df-26e4-409a-bb9b-ece19217cab4%2Fzorque-webfont.woff2') format('woff2'),
@@ -68,7 +78,6 @@ footer {
 
 .topnav .button:hover {
   border-bottom: 4px solid #7289DA;
-    font-size: 17px;
 }
 
 .topnav a.active {
@@ -90,7 +99,7 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   border-bottom: 3px solid transparent;
 }
 
@@ -99,7 +108,6 @@ footer {
  opacity: 1;
  color: white;
  border-bottom: 3px solid #7289DA;
- padding: 20px;
 }
 
 .fa-github {
