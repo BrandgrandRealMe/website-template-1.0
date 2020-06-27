@@ -1,3 +1,4 @@
+
 .vidcon {
     width:100%;
     height: 100%;
@@ -6,7 +7,6 @@
 .vid {
      width:100%;
     height: 50%;  
-
 }
 
 .vidinfo {
@@ -21,5 +21,30 @@
 }
 
 .viddesc {
+  
+}
+
+.list .vidcon {
+    width:100%;
+    height: 100%;
+}
+
+.list .vid {
+     width:100%;
+    height: 50%;  
+}
+
+.list .vidinfo {
+    width:100%;
+    height: 50%;
+}
+
+.list .vidtitle {
+  color: #7289DA;
+  font-family: 'zorque';
+  border-left: 10px solid transparent;
+}
+
+.list .viddesc {
   
 }
