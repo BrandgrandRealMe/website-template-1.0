@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.use(express.static("public"));
-app.get("/", (request, response) => {
+app.get("/h", (request, response) => {
   response.sendFile(__dirname + "/pages/home.html");
 });
 app.get("/gamevault", (request, response) => {
@@ -16,7 +16,7 @@ app.get("/mit", (request, response) => {
 app.get("/videos/all", (request, response) => {
   response.sendFile(__dirname + "/videos/all.html");
 });
-app.get("/vt", (request, response) => {
+app.get("/", (request, response) => {
   response.sendFile(__dirname + "/videos/template.html");
 });
 const listener = app.listen(process.env.PORT, () => {

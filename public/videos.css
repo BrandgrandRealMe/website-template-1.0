@@ -1,7 +1,17 @@
-.title {
+.vidcon {
+    width:100%
+}
+
+.vidinfo {
   
 }
 
-.desc {
+.vidtitle {
+  color: #7289DA;
+  font-family: 'zorque';
+  border-left: 10px solid transparent;
+}
+
+.viddesc {
   
 }
