@@ -13,8 +13,11 @@ app.get("/chat", (request, response) => {
 app.get("/mit", (request, response) => {
   response.sendFile(__dirname + "/pages/mit.html");
 });
-app.get("/videos", (request, response) => {
-  response.sendFile(__dirname + "/pages/videos.html");
+app.get("/videos/all", (request, response) => {
+  response.sendFile(__dirname + "/videos/all.html");
+});
+app.get("/vt", (request, response) => {
+  response.sendFile(__dirname + "/videos/template.html");
 });
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
