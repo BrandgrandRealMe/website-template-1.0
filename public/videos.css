@@ -1,57 +1,17 @@
-
-.vidcon {
-    width:100%;
-    height: 100%;
+#playlist {
+    display:table;
 }
-
-.vid {
-     width:100%;
-    height: 50%;  
+#playlist li{
+    cursor:pointer;
+    padding:8px;
 }
-
-.vidinfo {
-    width:100%;
-    height: 50%;
+#playlist li:hover{
+    color:blue;                        
 }
-
-.vidtitle {
-  color: #7289DA;
-  font-family: 'zorque';
-  border-left: 10px solid transparent;
-}
-
-.viddesc {
-  
-}
-
-.export {
-  display: none;
-}
-.list .vidcon {
-    width:100%;
-    height: 100%;
-}
-
-.list .vid {
-     width:100%;
-    height: 50%;  
-}
-
-.list .vidinfo {
-    width:100%;
-    height: 50%;
-}
-
-.list .vidtitle {
-  color: #7289DA;
-  font-family: 'zorque';
-  border-left: 10px solid transparent;
-}
-
-.list .viddesc {
-  
-}
-
-.list .export {
-  
+#videoarea {
+    float:left;
+    width:640px;
+    height:480px;
+    margin:10px;    
+    border:1px solid silver;
 }
