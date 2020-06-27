@@ -1,9 +1,17 @@
 .vidcon {
-    width:100%
+    width:100%;
+    height: 100%;
+}
+
+.vid {
+     width:100%;
+    height: 50%;  
+
 }
 
 .vidinfo {
-  
+    width:100%;
+    height: 50%;
 }
 
 .vidtitle {
