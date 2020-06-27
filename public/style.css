@@ -35,6 +35,8 @@ footer {
   background: #2C2F33;
   color:#FFFFFF;
   border: 5px solid transparent;
+  border: 1px;
+  margin: 0;
 }
 
 .mit {
