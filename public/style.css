@@ -20,7 +20,12 @@ section {
 
 footer {
   height: 50px;
-  background-color: blue;
+  background-color: #23272A;
+  font-family: 'zorque';  
+  color:#FFFFFF;
+  text-align: center;
+  padding:7px 50px;
+  font-size: 15px;
 }
 
 @font-face {
