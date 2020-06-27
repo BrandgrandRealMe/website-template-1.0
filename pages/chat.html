@@ -40,7 +40,7 @@
     <header>
       <div class="topnav">
         <!-- BUTTON <a href="LINK" class="active">TXT</a>-->
-        <a class="title">BRANDGRAND</a>
+        <a class="title" href="https://bgsite2.glitch.me/">BRANDGRAND</a>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -61,15 +61,16 @@
         >
       </div>
     </header>
-    <section>
+    <section id="body">
      
-<div id="chat_brandgrand"></div><p><a href="http://chatovod.com/" target="_blank">Create your own chat.</a></p>
+<div id="chat_brandgrand"></div>
 <script type="text/javascript">
-  
+       var BODYH = document.getElementById('body').offsetHeight;
+
     var chatovodOnLoad = chatovodOnLoad || [];
     chatovodOnLoad.push(function() {
         chatovod.addChatToDivId("chat_brandgrand", {host: "brandgrand.chatovod.com",
-            width: "100%", height: H2, defaultLanguage: "en"});
+            width: "100%", height: BODYH, defaultLanguage: "en"});
     });
  
     (function() {
